@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MBBS BRIDGE | Free & Honest MBBS Guidance</title>
+<link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+body { font-family: 'Poppins', sans-serif; }
+html { scroll-behavior: smooth; }
+</style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- ================= LANGUAGE TOGGLE ================= -->
+<div class="fixed top-20 right-4 z-50 bg-white shadow-lg rounded-xl p-2 flex gap-2">
+  <button onclick="setLang('en')" class="px-3 py-1 rounded bg-blue-600 text-white text-sm">English</button>
+  <button onclick="setLang('hi')" class="px-3 py-1 rounded bg-gray-200 text-sm">हिंदी</button>
+</div>
+
+<!-- ================= WHATSAPP FLOAT ================= -->
+<a href="https://wa.me/916280144157" target="_blank"
+class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-xl">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+<path d="M20.52 3.48A11.82 11.82 0 0012 0C5.37 0 0 5.37 0 12a11.88 11.88 0 001.67 6.06L0 24l6.18-1.62A11.93 11.93 0 0012 24c6.63 0 12-5.37 12-12a11.82 11.82 0 00-3.48-8.52z"/>
+</svg>
+</a>
+
+<!-- ================= NAVBAR ================= -->
+<!-- ================= NAVBAR ================= -->
+<nav class="fixed w-full bg-white shadow z-40">
+  <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+
+    <!-- Logo -->
+    <div class="text-2xl font-bold text-blue-600">
+      MBBS BRIDGE
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex gap-8 font-medium">
+      <a href="#home" class="hover:text-blue-600">Home</a>
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#process" class="hover:text-blue-600">Process</a>
+      <a href="#testimonials" class="hover:text-blue-600">Testimonials</a>
+      <a href="#faq" class="hover:text-blue-600">FAQ</a>
+      <a href="#contact" class="hover:text-blue-600">Contact</a>
+    </div>
+
+    <!-- Hamburger Button (Mobile) -->
+    <button id="hamburger" class="md:hidden focus:outline-none">
+      <svg class="w-8 h-8 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-white shadow-lg">
+    <a href="#home" class="block px-6 py-4 border-b">Home</a>
+    <a href="#about" class="block px-6 py-4 border-b">About</a>
+    <a href="#process" class="block px-6 py-4 border-b">Process</a>
+    <a href="#testimonials" class="block px-6 py-4 border-b">Testimonials</a>
+    <a href="#faq" class="block px-6 py-4 border-b">FAQ</a>
+    <a href="#contact" class="block px-6 py-4">Contact</a>
+  </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+<section id="home" class="pt-24 bg-gradient-to-r from-blue-700 to-indigo-800 text-white">
+<div class="max-w-7xl mx-auto px-6 py-32 text-center">
+<h1 class="text-4xl md:text-6xl font-bold" data-en="Free • Honest • Student-Led MBBS Guidance"
+data-hi="निःशुल्क • ईमानदार • छात्रों द्वारा संचालित MBBS मार्गदर्शन"></h1>
+
+<p class="mt-8 max-w-4xl mx-auto text-lg opacity-90"
+data-en="A completely free, non-commercial platform created by real MBBS students to protect aspirants from scams, false promises, and consultancy pressure."
+data-hi="वास्तविक MBBS छात्रों द्वारा बनाया गया एक पूरी तरह निःशुल्क मंच, जो छात्रों को धोखाधड़ी, झूठे वादों और कंसल्टेंसी दबाव से बचाने के लिए है।"></p>
+
+<div class="mt-10 flex justify-center gap-6 flex-wrap">
+<a href="#contact" class="bg-white text-blue-700 px-8 py-4 rounded-xl font-semibold">
+Get Free Guidance
+</a>
+<a href="#testimonials" class="border border-white px-8 py-4 rounded-xl">
+Real Student Stories
+</a>
+</div>
+</div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="py-28">
+<div class="max-w-6xl mx-auto px-6 text-center">
+<h2 class="text-4xl font-bold mb-10"
+data-en="Why MBBS Student Help Exists"
+data-hi="MBBS Student Help क्यों बना"></h2>
+
+<p class="text-lg text-gray-600 mb-6"
+data-en="Every year thousands of students lose money, time, and mental peace because of fake consultants, hidden clauses, and half-truths."
+data-hi="हर साल हजारों छात्र फर्जी कंसल्टेंट, छिपी शर्तों और अधूरी सच्चाई की वजह से पैसा, समय और मानसिक शांति खो देते हैं।"></p>
+
+<p class="text-lg text-gray-600"
+data-en="This platform is created to explain reality — not to sell dreams. No commissions. No tie-ups. No pressure."
+data-hi="यह मंच हकीकत समझाने के लिए बनाया गया है — सपने बेचने के लिए नहीं। कोई कमीशन नहीं। कोई टाई-अप नहीं। कोई दबाव नहीं।"></p>
+</div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section id="process" class="py-28 bg-gray-100">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-16"
+data-en="How Our Free Guidance Works"
+data-hi="हमारी निःशुल्क मार्गदर्शन प्रक्रिया"></h2>
+
+<div class="grid md:grid-cols-4 gap-10">
+<div class="bg-white p-8 rounded-2xl shadow">
+<h3 class="text-xl font-semibold mb-3">1. Reality Check</h3>
+<p class="text-gray-600">We explain the actual MBBS pathway — eligibility, budget, language, FMGE reality.</p>
+</div>
+
+<div class="bg-white p-8 rounded-2xl shadow">
+<h3 class="text-xl font-semibold mb-3">2. Country Comparison</h3>
+<p class="text-gray-600">Russia, Georgia, Kazakhstan, India — real pros & cons, not brochure talk.</p>
+</div>
+
+<div class="bg-white p-8 rounded-2xl shadow">
+<h3 class="text-xl font-semibold mb-3">3. Consultant Awareness</h3>
+<p class="text-gray-600">How agents trap students, how to read agreements, what questions to ask.</p>
+</div>
+
+<div class="bg-white p-8 rounded-2xl shadow">
+<h3 class="text-xl font-semibold mb-3">4. Ongoing Support</h3>
+<p class="text-gray-600">Before admission & after admission — without disappearing.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= TESTIMONIAL SLIDER ================= -->
+<section id="testimonials" class="py-28">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="text-4xl font-bold text-center mb-14"
+data-en="Real Student Experiences"
+data-hi="वास्तविक छात्रों के अनुभव"></h2>
+
+<div class="overflow-hidden relative">
+<div id="slider" class="flex transition-transform duration-700">
+
+<!-- Slide 1 -->
+<div class="min-w-full px-6">
+<div class="bg-white p-10 rounded-2xl shadow text-center">
+<p class="text-lg text-gray-600 italic">
+“I almost paid a consultant who promised guaranteed admission. MBBS Student Help explained everything clearly, from hidden fees to documentation pitfalls. I felt confident making decisions on my own.”
+</p>
+<p class="mt-6 font-semibold">— Aniket, MBBS Aspirant (RUSSIA)</p>
+</div>
+</div>
+
+<!-- Slide 2 -->
+<div class="min-w-full px-6">
+<div class="bg-white p-10 rounded-2xl shadow text-center">
+<p class="text-lg text-gray-600 italic">
+“The videos and guidance provided by this platform helped me understand the real student life in Russia. No sugar-coating, just honest advice. My hostel and language worries were addressed before I even left India.”
+</p>
+<p class="mt-6 font-semibold">— Vansh, MBBS Student (Russia)</p>
+</div>
+</div>
+
+<!-- Slide 3 -->
+<div class="min-w-full px-6">
+<div class="bg-white p-10 rounded-2xl shadow text-center">
+<p class="text-lg text-gray-600 italic">
+“Unlike agents, these student mentors responded even after admission. They helped me navigate professors, exams, and hostel life. Their advice saved me time, money, and stress.”
+</p>
+<p class="mt-6 font-semibold">— Rahul, 1st Year MBBS</p>
+</div>
+</div>
+
+<!-- Slide 4 -->
+<div class="min-w-full px-6">
+<div class="bg-white p-10 rounded-2xl shadow text-center">
+<p class="text-lg text-gray-600 italic">
+“As a parent, I was very skeptical. But seeing the detailed videos, country comparisons, and student stories gave me confidence to support my daughter. This is truly a neutral, honest platform.”
+</p>
+<p class="mt-6 font-semibold">— Mrs. Kapoor, Parent (INDIA)</p>
+</div>
+</div>
+
+<!-- Slide 5 -->
+<div class="min-w-full px-6">
+<div class="bg-white p-10 rounded-2xl shadow text-center">
+<p class="text-lg text-gray-600 italic">
+ “I recommend MBBS Student Help to all aspirants. Their guidance on consultants, hidden charges, and life abroad is unmatched. It’s free, transparent, and student-focused.”
+</p>
+<p class="mt-6 font-semibold">— MBBS Aspirant (RUSSIA)</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- YOUTUBE VIDEOS -->
+<section id="videos" class="py-24 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold text-center mb-6">
+      MBBS Guidance Videos
+    </h2>
+
+    <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12 text-lg">
+      These videos are created by us to explain the real admission process,
+      consultant reality, country comparison, and student life — without marketing or lies.
+    </p>
+
+    <!-- Slider Wrapper -->
+    <div class="relative overflow-hidden rounded-2xl shadow-lg bg-white">
+
+      <!-- Slider Track -->
+      <div id="ytSlider" class="flex transition-transform duration-700 ease-in-out">
+
+        <!-- VIDEO 1 -->
+            <div class="min-w-full p-6">
+  <div class="aspect-video rounded-xl overflow-hidden">
+    <iframe
+      class="w-full h-full"
+      src="https://www.youtube.com/embed/ya8JJpr2bdg?si=h5i4Wm2AwpoazXSn"
+      title="MBBS Guidance Video 3"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="mt-4 text-center font-medium">
+    BOYS HOSTEL | NCSA RUSSIA
+  </p>
+</div>
+        <!-- VIDEO 2 -->
+           <div class="min-w-full p-6">
+  <div class="aspect-video rounded-xl overflow-hidden">
+    <iframe
+      class="w-full h-full"
+      src="https://www.youtube.com/embed/6z-5BfLzYkI?si=XBmT8thZhUO02VpB"
+      title="MBBS Guidance Video 3"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="mt-4 text-center font-medium">
+     NCSA UNIVERSITY TOUR
+  </p>
+</div>
+
+        <!-- VIDEO 3 -->
+       <div class="min-w-full p-6">
+  <div class="aspect-video rounded-xl overflow-hidden">
+    <iframe
+      class="w-full h-full"
+      src="https://www.youtube.com/embed/ld5dcKT5UZo?si=BvjbUCvnoLzSn9P0" 
+      title="MBBS Guidance Video 3"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="mt-4 text-center font-medium">
+    UNIVERSITY GUIDE | MBBS RUSSIA
+  </p>
+</div>
+
+
+      </div>
+    </div>
+
+    <p class="text-center text-gray-500 mt-6">
+      More videos will be added regularly for student awareness.
+    </p>
+
+  </div>
+</section>
+
+
+<!-- ================= FAQ ================= -->
+<!-- FAQ -->
+<section id="faq" class="py-24 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+    
+    <div class="space-y-6">
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <p class="font-semibold">1. Is this a consultancy or admission agent?</p>
+        <p class="mt-2 text-gray-600">No. This platform is completely independent and student-led. We do not sell seats, push consultants, or take commissions.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <p class="font-semibold">2. Do I have to pay to get guidance here?</p>
+        <p class="mt-2 text-gray-600">Absolutely not. All guidance, videos, and advice are 100% free. There are no hidden charges.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <p class="font-semibold">3. Can parents contact you for advice?</p>
+        <p class="mt-2 text-gray-600">Yes. Parents are encouraged to ask questions. We provide honest guidance for both students and parents.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <p class="font-semibold">4. Are the YouTube videos and testimonials real?</p>
+        <p class="mt-2 text-gray-600">Yes. All videos are created by MBBS students, and testimonials are shared by real students with their consent. No fake reviews or marketing content is used.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <p class="font-semibold">5. How can I submit my questions or doubts?</p>
+        <p class="mt-2 text-gray-600">You can use the contact form at the bottom of the page. Enter your name, WhatsApp number, and question. Our student mentors will answer freely and honestly.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-28 bg-gray-900 text-white">
+<div class="max-w-4xl mx-auto px-6 text-center">
+<h2 class="text-4xl font-bold mb-6"
+data-en="Get Free & Honest Guidance"
+data-hi="निःशुल्क और ईमानदार मार्गदर्शन प्राप्त करें"></h2>
+
+<p class="opacity-80 mb-8"
+data-en="No payment. No pressure. Only truth."
+data-hi="कोई भुगतान नहीं। कोई दबाव नहीं। केवल सच्चाई।"></p>
+
+<form 
+      action="https://submit-form.com/i6Uc0DLWX" 
+      method="POST"
+      class="mt-10 grid gap-6"
+    >
+      <input 
+        type="text" 
+        name="name" 
+        class="p-4 rounded-xl text-black" 
+        placeholder="Your Name" 
+        required
+      />
+      <input 
+        type="text" 
+        name="whatsapp" 
+        class="p-4 rounded-xl text-black" 
+        placeholder="WhatsApp Number" 
+        required
+      />
+      <textarea 
+        name="question" 
+        class="p-4 rounded-xl text-black" 
+        rows="5" 
+        placeholder="Your Question" 
+        required
+      ></textarea>
+      <button type="submit" class="bg-blue-600 py-4 rounded-xl font-semibold">
+        Request Guidance
+      </button>
+    </form>
+
+<!-- ================= LEGAL ================= -->
+<section class="py-16 text-sm text-gray-500 max-w-6xl mx-auto px-6">
+<h3 class="font-semibold mb-2">Legal Disclaimer</h3>
+<p>This platform does not represent any university or consultancy. Information is shared based on student experiences.</p>
+
+<h3 class="font-semibold mt-6 mb-2">Privacy Policy</h3>
+<p>We do not sell data. Shared information is used only to respond to queries.</p>
+</section>
+
+<footer class="bg-black text-gray-400 py-6 text-center">
+© 2026 MBBS BRIDGE • Independent • Student-Led • 100% Free
+</footer>
+
+<script>
+let index = 0;
+setInterval(() => {
+  index = (index + 1) % 3;
+  document.getElementById('slider').style.transform = `translateX(-${index * 100}%)`;
+}, 4000);
+
+function setLang(lang) {
+  document.querySelectorAll('[data-en]').forEach(el => {
+    el.textContent = el.dataset[lang];
+  });
+}
+setLang('en');
+</script>
+
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  hamburger.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+
+  // Auto close menu on link click
+  document.querySelectorAll("#mobileMenu a").forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.add("hidden");
+    });
+  });
+</script>
+
+
+<script>
+  const ytSlider = document.getElementById("ytSlider");
+  let ytIndex = 0;
+  const ytTotal = 3; // number of videos
+
+  setInterval(() => {
+    ytIndex = (ytIndex + 1) % ytTotal;
+    ytSlider.style.transform = `translateX(-${ytIndex * 100}%)`;
+  }, 5000); // changes every 5 seconds
+</script>
+
+
+
+</body>
+</html>
